@@ -51,7 +51,7 @@ app.get('/contractDetails', (req, res) => {
         }
     ]
 
-    res.send(empDetails);
+    res.send({empDetails:empDetails});
 });
 
 
